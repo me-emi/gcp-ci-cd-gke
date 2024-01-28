@@ -7,7 +7,6 @@ serialPipeline:
  stages:
  - targetId: qsprod
    profiles: []
-   projectId: devopsproject-412620
 ---
 
 
@@ -17,4 +16,4 @@ metadata:
  name: qsprod
 description: production cluster
 gke:
- cluster: projects/gkemedium/locations/us-central1/clusters/cluster-1
+ cluster: projects/devopsproject-412620/locations/us-central1/clusters/cluster-1
