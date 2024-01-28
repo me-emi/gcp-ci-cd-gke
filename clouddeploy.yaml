@@ -7,6 +7,7 @@ serialPipeline:
  stages:
  - targetId: qsprod
    profiles: []
+   projectId: tcb-k8s-412616
 ---
 
 
