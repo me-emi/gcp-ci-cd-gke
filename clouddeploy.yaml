@@ -9,6 +9,16 @@ serialPipeline:
    profiles: []
 ---
 
+apiVersion: deploy.cloud.google.com/v1
+kind: DeliveryPipeline
+metadata:
+ name: my-demo-app2
+description: secondary application pipeline
+serialPipeline:
+ stages:
+ - targetId: qsprod
+   profiles: []
+---
 
 apiVersion: deploy.cloud.google.com/v1
 kind: Target

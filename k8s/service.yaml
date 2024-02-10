@@ -9,3 +9,15 @@ spec:
   type: LoadBalancer
   selector:
     app: hello-world-app
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world-service2
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+  selector:
+    app: hello-world-app2
